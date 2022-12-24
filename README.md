@@ -8,8 +8,25 @@
 	<li><span style="font-size:16px">Using <strong>Moviepy</strong> Library, Now the MP3 will be converted into MP4 using <strong>eng.png</strong> as its all time thumbnail.</span></li>
 </ul>
 
-<p><br />
-<span style="font-size:18px"><strong>FEATURES :</strong></span><br />
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:18px">Usage:</span></strong></p>
+
+<ul>
+	<li><span style="font-size:16px">Install Required Libraries using :</span></li>
+</ul>
+
+<pre>
+<code class="language-python">pip install -r requirements.txt</code></pre>
+
+<ul>
+	<li><span style="font-size:16px">Run eng.py :</span></li>
+</ul>
+
+<pre>
+<code class="language-python">py eng.py</code></pre>
+
+<p><span style="font-size:18px"><strong>FEATURES :</strong></span><br />
 ✅<span style="font-size:16px">Fetches Top 10 News Headlines.</span><br />
 ✅<span style="font-size:16px">Stores fetched News Data in a text file.</span><br />
 ✅<span style="font-size:16px">Converts it in MP3 Format.</span><br />
