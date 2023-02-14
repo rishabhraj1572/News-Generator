@@ -4,11 +4,13 @@ import json
 from gtts import gTTS 
 from moviepy.editor import *
 
+api_key="YOUR API KEY HERE"
+
 def eng():
     try:
         
         
-        r = requests.get('http://newsapi.org/v2/top-headlines?sources=google-news-in,language=hi&apiKey=d9e736fcf9b14b039f80c03b87ed3eb1')
+        r = requests.get(api_key)
         
 
 
@@ -65,7 +67,7 @@ def eng():
         print("Only 8 news available...")
         print("")
         print("")
-        r = requests.get('http://newsapi.org/v2/top-headlines?sources=google-news-in,language=hi&apiKey=d9e736fcf9b14b039f80c03b87ed3eb1')
+        r = requests.get(api_key)
         
 
 
