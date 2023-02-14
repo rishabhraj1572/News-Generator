@@ -13,6 +13,15 @@
 <p><strong><span style="font-size:18px">Usage:</span></strong></p>
 
 <ul>
+	<li><span style="font-size:16px">Add Your <strong>API LINK</strong> at <strong>Line 7</strong> in <a href="https://github.com/rishabhraj1572/News-Generator/blob/main/eng.py"><strong>eng.py</strong></a>. Get it From <a href="https://newsapi.org">HERE</a></span></li>
+</ul>
+
+<p>Example :&nbsp;</p>
+
+<pre>
+<code class="language-http">https://newsapi.org/v2/everything?q=tesla&amp;from=2023-01-14&amp;sortBy=publishedAt&amp;apiKey=API_KEY</code></pre>
+
+<ul>
 	<li><span style="font-size:16px">Install Required Libraries using :</span></li>
 </ul>
 
