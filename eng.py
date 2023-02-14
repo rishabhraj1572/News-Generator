@@ -4,7 +4,7 @@ import json
 from gtts import gTTS 
 from moviepy.editor import *
 
-api_key="YOUR API KEY HERE"
+api_key="YOUR API LINK HERE"
 
 def eng():
     try:
